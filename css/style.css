@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/24/16/51/background-687823_960_720.jpg");
+    background-size: 1500px
+}
+
+img {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Cinzel', serif;
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.about, .work, .contact {
+    margin-top: 100px;
+}
