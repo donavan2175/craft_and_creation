@@ -4,6 +4,10 @@ body {
     background-size: 1500px
 }
 
+.nav-link {
+    font-size: 50px;
+}
+
 .photo-heading {
     margin-top: 50px;
 }
