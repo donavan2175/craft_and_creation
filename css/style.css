@@ -1,9 +1,10 @@
+
 body {
     background-image: url("https://cdn.pixabay.com/photo/2015/03/24/16/51/background-687823_960_720.jpg");
     background-size: 1500px
 }
 
-img {
+.photo-heading {
     margin-top: 50px;
 }
 
@@ -18,4 +19,31 @@ h1 {
 
 .about, .work, .contact {
     margin-top: 100px;
+}
+
+@media (min-width: 320px) {
+    .nav-link {
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        left: 5px;
+    }
+
+    .photo-heading {
+        width: 300px;
+    }
+
+    h1 {
+        margin-top: -50px;
+    }
+
+    .work img {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        position: relative; 
+        left: 30px;
+        margin-bottom: 50px;
+    }
+
 }
