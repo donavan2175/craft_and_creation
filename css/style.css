@@ -29,6 +29,15 @@ h1 {
     font-size: 30px;
 }
 
+video {
+    width: 200px;
+    height: 200px
+}
+
+.contact {
+    font-size: 10px;
+}
+
 .about, .work, .contact {
     margin-top: 100px;
 }
