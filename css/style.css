@@ -17,10 +17,21 @@ body {
 
 .nav-link {
     font-size: 10px;
+    color: purple;
     text-align: center;
     position: relative;
     right: 10px
+}
 
+.heading {
+  margin: 1em 0 0.5em 0;
+	color: purple;
+	font-weight: bold;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
 }
 
 .photo-heading {
@@ -38,6 +49,10 @@ h1 {
     text-align: center;
     color: black;
     font-size: 30px;
+}
+
+h3 {
+  color: purple;
 }
 
 video {
@@ -61,6 +76,12 @@ video {
     font-size: 10px;
 }
 
+p {
+  color: white;
+  text-shadow: 2px 2px 4px purple;
+}
+
+
 .about, .work, .contact {
     margin-top: 100px;
 }
@@ -73,6 +94,7 @@ video {
     left: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+    border: 1px solid purple;
 }
 
 .work img:hover {
