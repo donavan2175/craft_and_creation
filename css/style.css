@@ -59,11 +59,12 @@ video {
     width: 200px;
     height: 200px;
     margin-bottom: 50px;
+    margin-right: 820px;
 }
 
 .h {
   position: relative;
-  right: 190px;
+  right: 90px;
 }
 
 .e {
