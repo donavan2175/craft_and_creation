@@ -59,18 +59,25 @@ video {
     width: 200px;
     height: 200px;
     margin-bottom: 50px;
-    margin-right: 820px;
+    margin-top: 200px;
+}
+
+.slogan {
+  position: relative;
+  bottom: 50px;
+  right: 50px;
 }
 
 .h {
   position: relative;
-  right: 90px;
+  right: 140px;
+  bottom: 50px;
 }
 
 .e {
   position: relative;
-  left: 90px;
-  bottom: 15px;
+  left: 145px;
+  bottom: 490px;
 }
 
 .contact {
