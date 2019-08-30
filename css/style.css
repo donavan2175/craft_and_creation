@@ -96,7 +96,7 @@ p {
 
 .work img {
     float: left;
-    width: 33.33%;
+    width: 15%;
     padding: 5px;
     position: relative; 
     left: 30px;
@@ -216,6 +216,7 @@ p {
     top: 100px;
   }
 
+
   .work img {
     width: 25%;
   }
@@ -223,6 +224,18 @@ p {
   #image4, #image10, #image16 {
     margin-left: -1px;
   }
+
+  #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10,
+#image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20 {
+    margin: 30px;
+    position: relative;
+    left: 30px;
+    
+    
+    
+  }
+  
+  
 
   .contact {
     margin-right: 500px;
@@ -243,12 +256,19 @@ p {
     right: 300px;
   }
 
+
+
   .work img {
-    width: 20%;
+    width: 15%;
+    
   }
 
-  #image4, #image10, #image16 {
-    margin-left: 40px;
+  #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10,
+  #image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20 {
+      margin: 50px;
+      
   }
+
+
 
 }
