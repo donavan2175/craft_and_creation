@@ -112,7 +112,7 @@ p {
 }
 
 #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10,
-#image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20 {
+#image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20, #image21, #image22, #image23, #image24, #image25, #image26 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -120,13 +120,15 @@ p {
   
   #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover, #image7:hover,
   #image8:hover, #image9:hover, #image10:hover, #image11:hover, #image12:hover, #image13:hover, #image14:hover,
-  #image15:hover, #image16:hover, #image17:hover, #image18:hover, #image19:hover,  #image20:hover {
+  #image15:hover, #image16:hover, #image17:hover, #image18:hover, #image19:hover,  #image20:hover, #image21:hover,
+  #image22:hover, #image23:hover, #image24:hover, #image25:hover, #image26:hover {
       opacity: 0.7;
   }
   
   
   .modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10,
-  .modal11, .modal12, .modal13, .modal14, .modal15, .modal16, .modal17, .modal18, .modal19, .modal20 {
+  .modal11, .modal12, .modal13, .modal14, .modal15, .modal16, .modal17, .modal18, .modal19, .modal20,
+  .modal21, .modal22, .modal23, .modal24, .modal25, .modal26 {
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -141,15 +143,12 @@ p {
   }
 
   .modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modal-content7, .modal-content8, .modal-content9, .modal-content10,
-  .modal-content11, .modal-content12, .modal-content13, .modal-content14, .modal-content15, .modal-content16, .modal-content17, .modal-content18, .modal-content19, .modal-content20 {
+  .modal-content11, .modal-content12, .modal-content13, .modal-content14, .modal-content15, .modal-content16, .modal-content17, .modal-content18, .modal-content19, .modal-content20,
+  .modal-content21, .modal-content22, .modal-content23, .modal-content24, .modal-content25, .modal-content26 {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
-  }
-  
-  .modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modal-content7, .modal-content8, .modal-content9, .modal-content10,
-  .modal-content11, .modal-content12, .modal-content13, .modal-content14, .modal-content15, .modal-content16, .modal-content17, .modal-content18, .modal-content19, .modal-content20 { 
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -226,7 +225,7 @@ p {
   }
 
   #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10,
-#image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20 {
+#image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20, #image21, #image22, #image23, #image24, #image25, #image26 {
     margin: 30px;
     position: relative;
     left: 30px;
@@ -279,7 +278,8 @@ p {
   }
 
   #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10,
-  #image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20 {
+  #image11, #image12, #image13, #image14, #image15, #image16, #image17, #image18, #image19, #image20,
+  #image21, #image22, #image23, #image24, #image25, #image26 {
       margin: 50px;
       
   }

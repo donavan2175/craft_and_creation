@@ -18,6 +18,12 @@ var modal17 = document.getElementById("myModal17");
 var modal18 = document.getElementById("myModal18");
 var modal19 = document.getElementById("myModal19");
 var modal20 = document.getElementById("myModal20");
+var modal21 = document.getElementById("myModal21");
+var modal22 = document.getElementById("myModal22");
+var modal23 = document.getElementById("myModal23");
+var modal24 = document.getElementById("myModal24");
+var modal25 = document.getElementById("myModal25");
+var modal26 = document.getElementById("myModal26");
 
 
 var img = document.getElementById("image1");
@@ -40,6 +46,12 @@ var img17 = document.getElementById("image17");
 var img18 = document.getElementById("image18");
 var img19 = document.getElementById("image19");
 var img20 = document.getElementById("image20");
+var img21 = document.getElementById("image21");
+var img22 = document.getElementById("image22");
+var img23 = document.getElementById("image23");
+var img24 = document.getElementById("image24");
+var img25 = document.getElementById("image25");
+var img26 = document.getElementById("image26");
 
 var modalImg = document.getElementById("img");
 var modalImg2 = document.getElementById("img2");
@@ -61,6 +73,12 @@ var modalImg17 = document.getElementById("img17");
 var modalImg18 = document.getElementById("img18");
 var modalImg19 = document.getElementById("img19");
 var modalImg20 = document.getElementById("img20");
+var modalImg21 = document.getElementById("img21");
+var modalImg22 = document.getElementById("img22");
+var modalImg23 = document.getElementById("img23");
+var modalImg24 = document.getElementById("img24");
+var modalImg25 = document.getElementById("img25");
+var modalImg26 = document.getElementById("img26");
 
 img.onclick = function(){
   modal.style.display = "block";
@@ -262,6 +280,36 @@ img20.onclick = function(){
   modalImg20.src = this.src;
 }
 
+img21.onclick = function(){
+  modal21.style.display = "block";
+  modalImg21.src = this.src;
+}
+
+img22.onclick = function(){
+  modal22.style.display = "block";
+  modalImg22.src = this.src;
+}
+
+img23.onclick = function(){
+  modal23.style.display = "block";
+  modalImg23.src = this.src;
+}
+
+img24.onclick = function(){
+  modal24.style.display = "block";
+  modalImg24.src = this.src;
+}
+
+img25.onclick = function(){
+  modal25.style.display = "block";
+  modalImg25.src = this.src;
+}
+
+img26.onclick = function(){
+  modal26.style.display = "block";
+  modalImg26.src = this.src;
+}
+
 
 var span = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close")[1];
@@ -283,6 +331,12 @@ var span17 = document.getElementsByClassName("close")[16];
 var span18 = document.getElementsByClassName("close")[17];
 var span19 = document.getElementsByClassName("close")[18];
 var span20 = document.getElementsByClassName("close")[19];
+var span21 = document.getElementsByClassName("close")[20];
+var span22 = document.getElementsByClassName("close")[21];
+var span23 = document.getElementsByClassName("close")[22];
+var span24 = document.getElementsByClassName("close")[23];
+var span25 = document.getElementsByClassName("close")[24];
+var span26 = document.getElementsByClassName("close")[25];
 
 span.onclick = function() { 
   modal.style.display = "none";
@@ -363,3 +417,140 @@ span19.onclick = function() {
 span20.onclick = function() { 
   modal20.style.display = "none";
 }
+
+span21.onclick = function() { 
+  modal21.style.display = "none";
+}
+
+span22.onclick = function() { 
+  modal22.style.display = "none";
+}
+
+span23.onclick = function() { 
+  modal23.style.display = "none";
+}
+
+span24.onclick = function() { 
+  modal24.style.display = "none";
+}
+
+span25.onclick = function() { 
+  modal25.style.display = "none";
+}
+
+span26.onclick = function() { 
+  modal26.style.display = "none";
+}
+
+const canvas = $("img[src='images/IMG_4213.JPEG']");
+const canvas2 = $("img[src='images/IMG_4553.JPG']");
+const canvas3 = $("img[src='images/IMG_4556.JPG']");
+const canvas4 = $("img[src='images/IMG_4717.JPG']");
+const canvas5 = $("img[src='images/IMG_4718.JPG']");
+const canvas6 = $("img[src='images/IMG_4719.JPG']");
+const canvas7 = $("img[src='images/IMG_4723.JPG']");
+const canvas8 = $("img[src='images/IMG_4873.JPG']");
+
+const paperFlower = $("img[src='images/IMG_4368.JPG']");
+const paperFlower2 = $("img[src='images/IMG_4419.JPG']");
+const paperFlower3 = $("img[src='images/IMG_4571.JPG']");
+const paperFlower4 = $("img[src='images/IMG_4824.JPG']");
+const paperFlower5 = $("img[src='images/IMG_4330-1.jpg']");
+const paperFlower6 = $("img[src='images/IMG_4355.jpg']");
+const paperFlower7 = $("img[src='images/IMG_4356.jpg']");
+const paperFlower8 = $("img[src='images/IMG_5126.JPG']");
+
+
+const centerPiece = $("img[src='images/IMG_4645.JPG']");
+const centerPiece2 = $("img[src='images/IMG_4711.JPG']");
+const centerPiece3 = $("img[src='images/58956713063__4373C736-A5C9-4A7D-909F-2471B22B7063.jpeg']");
+const centerPiece4 = $("img[src='images/IMG_4731.JPG']");
+
+const tshirt = $("img[src='images/IMG_4895.JPG']");
+const tshirt2 = $("img[src='images/IMG_4896.JPG']");
+const tshirt3 = $("img[src='images/IMG_4639.jpg']");
+
+const candles = $("img[src='images/IMG_4737.JPG']");
+
+const paperBoxes = $("img[src='images/IMG_5072.JPG']");
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'all') {
+    canvas.show(); canvas2.show(); canvas3.show(); canvas4.show(); canvas5.show();
+    canvas6.show(); canvas7.show(); canvas8.show();
+
+    paperFlower.show(); paperFlower2.show(); paperFlower3.show(); paperFlower4.show(); paperFlower5.show();
+    paperFlower6.show(); paperFlower7.show(); paperFlower8.show(); centerPiece.show(); centerPiece2.show(); centerPiece3.show(); centerPiece4.show();
+    tshirt.show(); tshirt2.show(); tshirt3.show(); candles.show(); paperBoxes.show();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'canvas') {
+    canvas.show(); canvas2.show(); canvas3.show(); canvas4.show(); canvas5.show();
+    canvas6.show(); canvas7.show(); canvas8.show();
+
+    paperFlower.hide(); paperFlower2.hide(); paperFlower3.hide(); paperFlower4.hide(); paperFlower5.hide();
+    paperFlower6.hide(); paperFlower7.hide(); paperFlower8.hide(); centerPiece.hide(); centerPiece2.hide(); centerPiece3.hide(); centerPiece4.hide();
+    tshirt.hide(); tshirt2.hide(); tshirt3.hide(); candles.hide(); paperBoxes.hide();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'paper flower') {
+    canvas.hide(); canvas2.hide(); canvas3.hide(); canvas4.hide(); canvas5.hide();
+    canvas6.hide(); canvas7.hide(); canvas8.hide();
+
+    paperFlower.show(); paperFlower2.show(); paperFlower3.show(); paperFlower4.show(); paperFlower5.show();
+    paperFlower6.show(); paperFlower7.show(); paperFlower8.show(); centerPiece.hide(); centerPiece2.hide(); centerPiece3.hide(); centerPiece4.hide();
+    tshirt.hide(); tshirt2.hide(); tshirt3.hide(); candles.hide(); paperBoxes.hide();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'paper boxes') {
+    canvas.hide(); canvas2.hide(); canvas3.hide(); canvas4.hide(); canvas5.hide();
+    canvas6.hide(); canvas7.hide(); canvas8.hide();
+
+    paperFlower.hide(); paperFlower2.hide(); paperFlower3.hide(); paperFlower4.hide(); paperFlower5.hide();
+    paperFlower6.hide(); paperFlower7.hide(); paperFlower8.hide(); centerPiece.hide(); centerPiece2.hide(); centerPiece3.hide(); centerPiece4.hide();
+    tshirt.hide(); tshirt2.hide(); tshirt3.hide(); candles.hide(); paperBoxes.show();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'center pieces') {
+    canvas.hide(); canvas2.hide(); canvas3.hide(); canvas4.hide(); canvas5.hide();
+    canvas6.hide(); canvas7.hide(); canvas8.hide();
+
+    paperFlower.hide(); paperFlower2.hide(); paperFlower3.hide(); paperFlower4.hide(); paperFlower5.hide();
+    paperFlower6.hide(); paperFlower7.hide(); paperFlower8.hide(); centerPiece.show(); centerPiece2.show(); centerPiece3.show(); centerPiece4.show();
+    tshirt.hide(); tshirt2.hide(); tshirt3.hide(); candles.hide(); paperBoxes.hide();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 'candles') {
+    canvas.hide(); canvas2.hide(); canvas3.hide(); canvas4.hide(); canvas5.hide();
+    canvas6.hide(); canvas7.hide(); canvas8.hide();
+
+    paperFlower.hide(); paperFlower2.hide(); paperFlower3.hide(); paperFlower4.hide(); paperFlower5.hide();
+    paperFlower6.hide(); paperFlower7.hide(); paperFlower8.hide(); centerPiece.hide(); centerPiece2.hide(); centerPiece3.hide(); centerPiece4.hide();
+    tshirt.hide(); tshirt2.hide(); tshirt3.hide(); candles.show(); paperBoxes.hide();
+  }
+});
+
+$('#productType').change(function() {
+  if ($('#productType').val() === 't shirt') {
+    canvas.hide(); canvas2.hide(); canvas3.hide(); canvas4.hide(); canvas5.hide();
+    canvas6.hide(); canvas7.hide(); canvas8.hide();
+
+    paperFlower.hide(); paperFlower2.hide(); paperFlower3.hide(); paperFlower4.hide(); paperFlower5.hide();
+    paperFlower6.hide(); paperFlower7.hide(); paperFlower8.hide(); centerPiece.hide(); centerPiece2.hide(); centerPiece3.hide(); centerPiece4.hide();
+    tshirt.show(); tshirt2.show(); tshirt3.show(); candles.hide(); paperBoxes.hide();
+  }
+});
+
+
+
+
